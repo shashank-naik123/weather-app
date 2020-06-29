@@ -16,7 +16,7 @@ app.use(express.static("public"));
 app.post("/",function(req,res){
 
   const city=req.body.cityName
-  const key="b8da891fcba986a496291ea5f442d43c"
+  const key=*****************
   const url="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+key+"&units=metric"
   https.get(url,function(response){
     console.log(response.statusCode)
@@ -34,13 +34,7 @@ app.post("/",function(req,res){
 
 
 
-      // res.write("<body>")
-      // res.write("<style>  body{ background-color: #ddf3f5;text-align: center;font-family: 'Ubuntu', sans-serif;margin-top: 50px;}</style>")
-      // res.write("<h1>Temperature In "+city+" is "+temp+" degree Celsius.</h1>")
-      // res.write("<h3>Weather in "+city+" is "+descr+" !</h3>")
-      // res.write("<img src="+imageUrl+">")
-      // res.write("</body>")
-      // res.send()
+
 })
 })
 })
