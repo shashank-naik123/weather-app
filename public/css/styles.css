@@ -1,3 +1,4 @@
+
 div{
   margin: auto;
 }
@@ -16,7 +17,11 @@ div{
   font-family: 'Ubuntu', sans-serif;
 }
 body{
-  background-color: #ddf3f5;
+  /* background-color: #ddf3f5; */
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+
+  font-family: 'helvetica neue';
 }
 
 .middle{
@@ -39,4 +44,17 @@ body{
 }
 .footer-icon{
   margin: 20px;
+}
+.carousel{
+  margin-top: 50px;
+  width: 50%;
+}
+.carousel-item {
+  width:640px;
+  height:360px;
+}
+.result{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
